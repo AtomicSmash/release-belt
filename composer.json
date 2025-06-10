@@ -1,58 +1,67 @@
 {
-    "name"                : "rarst/release-belt",
-    "description"         : "Composer repository for ZIPs",
-    "license"             : "MIT",
-    "authors"             : [
-        {
-            "name"    : "Andrey Savchenko",
-            "homepage": "https://www.Rarst.net/"
-        }
-    ],
-    "support"             : {
-        "issues": "https://github.com/Rarst/release-belt/issues"
+  "name": "atomicsmash/release-belt",
+  "description": "Composer repository for ZIPs",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matt Stone",
+      "homepage": "https://www.atomicsmash.co.uk/",
+      "role": "Developer"
     },
-    "require"             : {
-        "php"                             : "^7.4|^8.0",
-        "akrabat/ip-address-middleware"   : "^2.1",
-        "danjam/slim-mustache-view"       : "^1.1",
-        "frontpack/composer-assets-plugin": "~0.10",
-        "league/fractal"                  : "~0.10",
-        "php-di/slim-bridge"              : "^3.2",
-        "slim/http"                       : "^1.2.0",
-        "slim/psr7"                       : "^1.5",
-        "slim/slim"                       : "^4.10",
-        "symfony/finder"                  : "^5.4.8",
-        "tuupola/slim-basic-auth"         : "^3.2.1",
-        "twbs/bootstrap"                  : "^4.0",
-        "ext-json"                        : "*"
-    },
-    "autoload"            : {
-        "psr-4": {
-            "Rarst\\ReleaseBelt\\": "src/"
-        }
-    },
-    "require-dev"         : {
-        "pds/skeleton": "^1.0"
-    },
-    "scripts"             : {
-        "belt-update": [
-            "git fetch --tags",
-            "@php bin/checkoutLatestTag.php",
-            "@composer update --no-dev --optimize-autoloader"
-        ]
-    },
-    "scripts-descriptions": {
-        "belt-update": "Performs update to the latest Release Belt version."
-    },
-    "extra"               : {
-        "assets-dir"  : "public/css",
-        "assets-files": {
-            "twbs/bootstrap": "dist/css/bootstrap.min.css"
-        }
-    },
-    "config"              : {
-        "allow-plugins": {
-            "frontpack/composer-assets-plugin": true
-        }
+    {
+        "name"    : "Andrey Savchenko",
+        "homepage": "https://www.Rarst.net/",
+        "role": "Original Developer"
     }
+
+  ],
+  "support": {
+    "issues": "https://github.com/atomicsmash/release-belt/issues"
+  },
+  "require": {
+    "php": "^8.2",
+    "ext-json": "*",
+    "composer-runtime-api": "^2",
+    "akrabat/ip-address-middleware": "^2.6.1",
+    "danjam/slim-mustache-view": "^1.1",
+    "frontpack/composer-assets-plugin": "~0.11",
+    "league/fractal": "^0.20.2",
+    "php-di/slim-bridge": "^3.4.1",
+    "slim/http": "^1.4.0",
+    "slim/psr7": "^1.7.1",
+    "slim/slim": "^4.14.0",
+    "symfony/finder": "^7.3.0",
+    "tuupola/slim-basic-auth": "^3.4.0",
+    "twbs/bootstrap": "^5.3.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "AtomicSmash\\ReleaseBelt\\": "src/"
+    }
+  },
+  "require-dev": {
+    "pds/skeleton": "^1.0.0"
+  },
+  "scripts": {
+    "belt-update": [
+      "git fetch --tags",
+      "@php bin/checkoutLatestTag.php",
+      "@composer update --no-dev --optimize-autoloader"
+    ]
+  },
+  "scripts-descriptions": {
+    "belt-update": "Performs update to the latest Release Belt version."
+  },
+  "extra": {
+    "assets-dir": "public/css",
+    "assets-files": {
+      "twbs/bootstrap": "dist/css/bootstrap.min.css"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "frontpack/composer-assets-plugin": true
+    },
+    "sort-packages": true
+  }
 }

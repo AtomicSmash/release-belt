@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt\Tests;
+namespace AtomicSmash\ReleaseBelt\Tests;
 
 use Psr\Http\Message\UriInterface;
-use Rarst\ReleaseBelt\UrlGenerator;
+use AtomicSmash\ReleaseBelt\UrlGenerator;
 use PHPUnit\Framework\TestCase;
 use Slim\Interfaces\RouteParserInterface;
 

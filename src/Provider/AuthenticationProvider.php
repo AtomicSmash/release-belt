@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt\Provider;
+namespace AtomicSmash\ReleaseBelt\Provider;
 
 use Psr\Container\ContainerInterface;
 use Psr\Http\Message\ServerRequestInterface;

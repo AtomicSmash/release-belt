@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt\Controller;
+namespace AtomicSmash\ReleaseBelt\Controller;
 
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Psr\Log\LoggerInterface;
-use Rarst\ReleaseBelt\Model\FileModel;
-use Rarst\ReleaseBelt\Release;
+use AtomicSmash\ReleaseBelt\Model\FileModel;
+use AtomicSmash\ReleaseBelt\Release;
 use Slim\Exception\HttpNotFoundException;
 use Slim\Http\Response;
 use Symfony\Component\Finder\SplFileInfo;

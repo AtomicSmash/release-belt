@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt\Fractal;
+namespace AtomicSmash\ReleaseBelt\Fractal;
 
 use League\Fractal\TransformerAbstract;
-use Rarst\ReleaseBelt\UrlGeneratorInterface;
-use Rarst\ReleaseBelt\Release;
+use AtomicSmash\ReleaseBelt\UrlGeneratorInterface;
+use AtomicSmash\ReleaseBelt\Release;
 
 /**
  * Prepares release data for the repository format.

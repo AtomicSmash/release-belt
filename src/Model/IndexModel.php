@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt\Model;
+namespace AtomicSmash\ReleaseBelt\Model;
 
-use Rarst\ReleaseBelt\UrlGeneratorInterface;
+use AtomicSmash\ReleaseBelt\UrlGeneratorInterface;
 
 /**
  * Provides data context for the index page.

@@ -1,9 +1,9 @@
 <?php
 
-namespace Rarst\ReleaseBelt\Tests\Fractal;
+namespace AtomicSmash\ReleaseBelt\Tests\Fractal;
 
 use PHPUnit\Framework\TestCase;
-use Rarst\ReleaseBelt\Fractal\PackageSerializer;
+use AtomicSmash\ReleaseBelt\Fractal\PackageSerializer;
 
 class PackageSerializerTest extends TestCase
 {

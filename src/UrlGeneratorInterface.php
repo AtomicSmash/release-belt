@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt;
+namespace AtomicSmash\ReleaseBelt;
 
 /**
  * Declares a way to generate absolute URLs to the app routes.

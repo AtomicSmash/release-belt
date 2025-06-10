@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt;
+namespace AtomicSmash\ReleaseBelt;
 
 use Psr\Http\Message\UriInterface;
 use Slim\Interfaces\RouteParserInterface;

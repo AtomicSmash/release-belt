@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt\Controller;
+namespace AtomicSmash\ReleaseBelt\Controller;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Rarst\ReleaseBelt\Model\IndexModel;
+use AtomicSmash\ReleaseBelt\Model\IndexModel;
 use Slim\Views\Mustache;
 
 /**

@@ -1,7 +1,7 @@
 # Release Belt — Composer repo for ZIPs
-[![Tests Status](https://github.com/rarst/release-belt/actions/workflows/tests.yml/badge.svg)](https://github.com/Rarst/release-belt/actions/workflows/tests.yml)
-[![Latest Stable Version](https://poser.pugx.org/rarst/release-belt/version)](https://packagist.org/packages/rarst/release-belt)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/rarst/release-belt.svg)](https://packagist.org/packages/rarst/release-belt)
+[![Tests Status](https://github.com/atomicsmash/release-belt/actions/workflows/tests.yml/badge.svg)](https://github.com/atomicsmash/release-belt/actions/workflows/tests.yml)
+[![Latest Stable Version](https://poser.pugx.org/atomicsmash/release-belt/version)](https://packagist.org/packages/atomicsmash/release-belt)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/atomicsmash/release-belt.svg)](https://packagist.org/packages/atomicsmash/release-belt)
 [![PDS Skeleton](https://img.shields.io/badge/pds-skeleton-blue.svg?style=flat-square)](https://github.com/php-pds/skeleton)
 
 Release Belt is a Composer repository, which serves to quickly integrate third–party non–Composer releases into Composer workflow. Once Release Belt is installed and you upload your zip files with their respective version number, Release Belt does the rest.
@@ -9,7 +9,7 @@ Release Belt is a Composer repository, which serves to quickly integrate third�
 Given the following folder tree:
 
 ```
-releases/wordpress-plugin/rarst/plugin.1.0.zip
+releases/wordpress-plugin/atomicsmash/plugin.1.0.zip
 ```
 
 It will serve the following Composer repository at `/packages.json` automagically:
@@ -17,12 +17,12 @@ It will serve the following Composer repository at `/packages.json` automagicall
 ```json
 {
     "packages": {
-        "rarst/plugin": {
+        "atomicsmash/plugin": {
             "1.0": {
-                "name": "rarst/plugin",
+                "name": "atomicsmash/plugin",
                 "version": "1.0",
                 "dist": {
-                    "url": "http://example.com/rarst/plugin.1.0.zip",
+                    "url": "http://example.com/atomicsmash/plugin.1.0.zip",
                     "type": "zip"
                 },
                 "type": "wordpress-plugin",
@@ -46,7 +46,7 @@ There is a helper Composer script provided that tries to fetch latest stable ver
 #### Install
 
 ```bash
-git clone https://github.com/Rarst/release-belt
+git clone https://github.com/atomicsmash/release-belt
 cd release-belt
 composer belt-update
 ```

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt\Fractal;
+namespace AtomicSmash\ReleaseBelt\Fractal;
 
 use League\Fractal\Serializer\ArraySerializer;
 

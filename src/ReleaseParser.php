@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt;
+namespace AtomicSmash\ReleaseBelt;
 
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Finder\SplFileInfo;

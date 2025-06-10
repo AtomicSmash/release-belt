@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt\Tests\Fractal;
+namespace AtomicSmash\ReleaseBelt\Tests\Fractal;
 
 use PHPUnit\Framework\TestCase;
-use Rarst\ReleaseBelt\Fractal\ReleaseTransformer;
-use Rarst\ReleaseBelt\Release;
-use Rarst\ReleaseBelt\UrlGenerator;
+use AtomicSmash\ReleaseBelt\Fractal\ReleaseTransformer;
+use AtomicSmash\ReleaseBelt\Release;
+use AtomicSmash\ReleaseBelt\UrlGenerator;
 
 class ReleaseTransformerTest extends TestCase
 {

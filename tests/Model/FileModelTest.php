@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt\Tests\Model;
+namespace AtomicSmash\ReleaseBelt\Tests\Model;
 
 use PHPUnit\Framework\TestCase;
-use Rarst\ReleaseBelt\Model\FileModel;
+use AtomicSmash\ReleaseBelt\Model\FileModel;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Finder\SplFileInfo;
 

@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 use DI\Bridge\Slim\Bridge;
 use DI\ContainerBuilder;
-use Rarst\ReleaseBelt\Controller\FileController;
-use Rarst\ReleaseBelt\Controller\IndexController;
-use Rarst\ReleaseBelt\Controller\JsonController;
-use Rarst\ReleaseBelt\Provider\AuthenticationProvider;
+use AtomicSmash\ReleaseBelt\Controller\FileController;
+use AtomicSmash\ReleaseBelt\Controller\IndexController;
+use AtomicSmash\ReleaseBelt\Controller\JsonController;
+use AtomicSmash\ReleaseBelt\Provider\AuthenticationProvider;
 use RKA\Middleware\IpAddress;
 
 require __DIR__ . '/../vendor/autoload.php';

@@ -1,10 +1,10 @@
 <?php
 
-namespace Rarst\ReleaseBelt\Tests;
+namespace AtomicSmash\ReleaseBelt\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Rarst\ReleaseBelt\Release;
-use Rarst\ReleaseBelt\ReleaseParser;
+use AtomicSmash\ReleaseBelt\Release;
+use AtomicSmash\ReleaseBelt\ReleaseParser;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Finder\SplFileInfo;
 

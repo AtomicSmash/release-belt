@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt\Tests\Model;
+namespace AtomicSmash\ReleaseBelt\Tests\Model;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\UriInterface;
-use Rarst\ReleaseBelt\Model\IndexModel;
-use Rarst\ReleaseBelt\UrlGenerator;
+use AtomicSmash\ReleaseBelt\Model\IndexModel;
+use AtomicSmash\ReleaseBelt\UrlGenerator;
 
 class IndexModelTest extends TestCase
 {

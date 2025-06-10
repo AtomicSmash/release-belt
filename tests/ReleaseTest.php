@@ -1,9 +1,9 @@
 <?php
 
-namespace Rarst\ReleaseBelt\Tests;
+namespace AtomicSmash\ReleaseBelt\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Rarst\ReleaseBelt\Release;
+use AtomicSmash\ReleaseBelt\Release;
 use Symfony\Component\Finder\SplFileInfo;
 
 class ReleaseTest extends TestCase

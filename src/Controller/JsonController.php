@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rarst\ReleaseBelt\Controller;
+namespace AtomicSmash\ReleaseBelt\Controller;
 
 use Psr\Http\Message\ServerRequestInterface;
 use Slim\Http\Response;
